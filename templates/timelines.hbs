@@ -1,0 +1,54 @@
+{{!-- <h1>
+  {{value}}
+</h1>
+ --}}
+
+  <ul>
+{{#each timelines}}
+
+
+ <div class="tlinfo">
+
+        <div class="icons">
+        <div class="dates">{{date}}</div>
+     <div class="times">{{times}}</div>
+      <i class="fa {{icon}}"></i>
+        </div>
+      </div>
+  <li class="tlinfo2">
+    <section>
+      <article>
+        <h4>{{title}}</h4>
+        <p>{{content}}</p>
+       </article>
+    </section>
+      </li>
+
+
+{{/each}}
+
+
+  {{!-- <li>
+
+
+  <section>
+  <h4>{{title}}</h4>
+
+  <p>
+  {{content}}
+  </p>
+  </section>
+
+  {{icon}}</li>
+ --}}
+
+
+
+
+
+</ul>
+
+
+
+<div>
+<div><strong>{{date}}</strong></div>
