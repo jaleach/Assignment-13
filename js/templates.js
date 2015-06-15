@@ -18,7 +18,7 @@ this["template"]["timelines"] = Handlebars.template({"1":function(depth0,helpers
 
   return "\n  <ul>\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.timelines : depth0),{"name":"each","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + "\n\n\n\n\n\n\n</ul>\n\n\n\n<div>\n<div><strong>"
+    + "\n<div>\n\n</ul>\n\n\n\n\n<div><strong>"
     + this.escapeExpression(((helper = (helper = helpers.date || (depth0 != null ? depth0.date : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0,{"name":"date","hash":{},"data":data}) : helper)))
     + "</strong></div>\n";
 },"useData":true});

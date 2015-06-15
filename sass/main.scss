@@ -1,17 +1,47 @@
-@media screen and (max-width:800px) {
+@media screen and (min-width:500px) {
+  article{
+    width: 120%;
+  }
+  .times{
+      top: 20px;
+      left: -75px;
+      font-size: 37px;
+  }
+  .icons{
+    right: -64px;
+  }
+  .dates{
+    left: -54px;
+    top: 5px;
+  }
 
 }
 @media screen and (max-width:500px) {
-   body {
-    background: blue;
+
+   article{
+    width: 75%;
    }
+   .icons{
+    right: -402px
+   }
+   section{
+    margin-top: 45px;
+   }
+   .times{
+      top: 10px;
+      left: -280px;
+      font-size: 25px;
+  }
+  .dates{
+    top: 0px;
+      left: -287px;
+  }
 }
 section{
   position:relative;
 }
 article{
   background-color: #3A95C9;
-   width: 600px;
   color: white;
   padding: 10px;
   margin-bottom: 20px;
@@ -52,10 +82,12 @@ i{
   width: 580px;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.outer{
+  width: 75%;
+}
 
 .icons{
 position: absolute;
-right: -64px;
 top: 0;
 padding: 6px;
 border-radius: 37px;
@@ -63,18 +95,18 @@ background-color:#B7DEF7;
 }
 .times{
 color: #57B5E8;
-left: -75px;
+
   position: absolute;
-  top: 20px;
-  font-size: 37px;
+
+
   margin-left: -8px;
 
 }
 .dates{
   color: #AEC3CF;
   position: absolute;
-  top: 5px;
-  left: -54px;
+
+
 }
 .tlinfo2{
 }
