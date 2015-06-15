@@ -1,16 +1,10 @@
-@media screen and (min-width:600px) {
-  nav {
-    float: left;
-    width: 25%;
-  }
-  section {
-    margin-left: 25%;
-  }
+@media screen and (max-width:800px) {
+
 }
-@media screen and (max-width:599px) {
-   li {
-    display: inline;
-  }
+@media screen and (max-width:500px) {
+   body {
+    background: blue;
+   }
 }
 section{
   position:relative;
